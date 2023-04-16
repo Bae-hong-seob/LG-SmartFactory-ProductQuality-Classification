@@ -1,5 +1,5 @@
 # [LG Aimers 스마트 공장 제품 품질 상태 분류 AI 온라인 해커톤 - 예선](https://dacon.io/competitions/official/236055/overview/description)
-'23.02.01 ~ '23.02.28
+## 기간 : '23.02.01 ~ '23.02.28
 
 # 1. EDA 진행
 # 2. Try
