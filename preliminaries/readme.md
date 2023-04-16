@@ -8,11 +8,20 @@
     - 후진 소거법
     - VIF 기준 제거
     - RFE(Recursive Feature Elimination) 
-  - Try2 : Handling missing value(공장별 or 제품별 mean, median, mode, iterativeimputer 기법 적용)
-  - Try3 : semi-supervised learning 시도(test dataset에 Y_Quality column 추가 -> Y_Class 예측)
-  - Try4 : Data Augmentation(CTGAN 사용)
-  - Try5 : tablur dataset -> Graph dataset 구축, GNN(GCN 적용)
-  - Try6 : Modeling(Linear, Lasso, Ridge, Elastic net, GBM, LGBM, Catboost, DT, RF, GCN) 구축 및 비교
+  - Try2 : Handling missing value
+    - 공장별 mean, median, mode, iterativeimputer 기법 적용
+    - 제품별 mean, median, mode, iterativeimputer 기법 적용
+  - Try3 : semi-supervised learning 시도
+    - test dataset에 Y_Quality column 추가 -> Y_Class 예측
+  - Try4 : Data Augmentation
+    - CTGAN 사용
+  - Try5 : tablur dataset -> Graph dataset 구축
+    - GNN(GCN 적용)
+  - Try6 : Modeling 비교
+    - Linear, Lasso, Ridge, Elastic net
+    - GBM, LGBM, Catboost
+    - DT, RF
+    - GCN
 
 # 3. solution
   - feature selection : 하지 않는게 public score 상 best
