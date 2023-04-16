@@ -3,7 +3,11 @@
 
 # 1. EDA 진행
 # 2. Try
-  - Try1 : feature selection(전진 선택법, 후진 소거법, VIF 기준 제거) and RFE(Recursive Feature Elimination) 시도
+  - Try1 : feature selection
+    - 전진 선택법
+    - 후진 소거법
+    - VIF 기준 제거
+    - RFE(Recursive Feature Elimination) 
   - Try2 : Handling missing value(공장별 or 제품별 mean, median, mode, iterativeimputer 기법 적용)
   - Try3 : semi-supervised learning 시도(test dataset에 Y_Quality column 추가 -> Y_Class 예측)
   - Try4 : Data Augmentation(CTGAN 사용)
