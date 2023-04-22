@@ -1,4 +1,9 @@
-예선전과 비교하여 데이터 추가(row 증가) 및 feature 증가(2875개 -> 3326개)
+예선전과 비교하여 데이터 추가(row 증가) 및 feature 증가(2875개 -> 3326개).  
+
+## Solution: Multi model 구축 및 Dicision Boundary를 Decision Tree를 사용하여 동적 조절
+  - 예선전 데이터 model 1
+  - 본선 데이터 model 2
+  - 전체 데이터 model 3
 
 ## Dataset Info.
 
