@@ -9,7 +9,7 @@
   - '23.03.25 ~ '23.03.26
   - offline(LG 경기 연수원)
   - Top 3 team 수상
-<h>
+<hr>
 
 Try1 : feature selection
 - 전진 선택법, 후진 소거법 
