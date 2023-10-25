@@ -33,3 +33,13 @@ Try6 : Modeling 비교
 - GBM, LGBM, Catboost
 - DT, RF
 - GCN
+
+### Final Try:
+feature 증가 (2875 -> 3326) 으로 인해 Curse of dimensionality 예상
+    - corr 기준 feature elimination
+    - corr 기준 threshold(0.9) 이상 PCA를 통해 하나의 feature로 통합.
+    
+### Final Solution: Multi model 구축 및 Dicision Boundary를 Decision Tree를 사용하여 동적 조절
+  - 예선전 데이터 model 1
+  - 본선 데이터 model 2
+  - 전체 데이터 model 3
