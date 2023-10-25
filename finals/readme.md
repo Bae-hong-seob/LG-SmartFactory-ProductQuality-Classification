@@ -2,7 +2,7 @@
 
 
 ## Try:
-1. feature 증가 (2875 -> 3326) 으로 인해 Curse of dimensionality 예상
+feature 증가 (2875 -> 3326) 으로 인해 Curse of dimensionality 예상
     - corr 기준 feature elimination
     - corr 기준 threshold(0.9) 이상 PCA를 통해 하나의 feature로 통합.
     
