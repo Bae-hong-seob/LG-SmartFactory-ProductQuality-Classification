@@ -34,6 +34,13 @@ Try6 : Modeling 비교
 - DT, RF
 - GCN
 
+solution:
+  - feature selection : 하지 않는게 public score 상 best
+  - Handling missing value : -1로 결측치 대체
+  - Y_Quality log transformation 적용
+  - PRODCUT 별로 multi model 구축
+  - 평가 방식 Macro F1 score 에 따른 decision boundary 수정
+
 ### Final Try:
 feature 증가 (2875 -> 3326) 으로 인해 Curse of dimensionality 예상
     - corr 기준 feature elimination
