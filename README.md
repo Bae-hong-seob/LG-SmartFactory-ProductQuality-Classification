@@ -10,6 +10,7 @@ LG에서는 제조 지능화를 통해 공정 과정에서 발생하는 이벤�
 # Dataset
 
 Train data: (598,2881)  
+
 실제 공정 과정에서의 데이터로, 보안상의 이유로 일부 변수가 비식별화 처리 되었습니다. (X변수)  
 'LINE', 'PRODUCT_CODE'는 Train / Test 모두 동일한 종류가 존재합니다.
 - PRODUCT_ID : 제품의 고유 ID
